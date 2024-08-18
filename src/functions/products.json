@@ -1,0 +1,62 @@
+[
+    {
+        "id": 0,
+        "name": "Smart Watch",
+        "image": "https://rukminim2.flixcart.com/image/850/1000/xif0q/smartwatch/q/p/q/-original-imagxrgxkrgdwbfz.jpeg",
+        "price": 199
+    },
+    {
+        "id": 1,
+        "name": "Wireless Earbuds",
+        "image": "https://rukminim2.flixcart.com/image/450/500/xif0q/headphone/d/q/r/-original-imagp6skt77zsdjt.jpeg",
+        "price": 79
+    },
+    {
+        "id": 2,
+        "name": "Bluetooth Speaker",
+        "image": "https://rukminim2.flixcart.com/image/850/1000/xif0q/speaker/mobile-tablet-speaker/b/h/l/por-1579-portronics-original-imagtafykqagyggk.jpeg",
+        "price": 45
+    },
+    {
+        "id": 3,
+        "name": "Laptop Stand",
+        "image": "https://rukminim2.flixcart.com/image/850/1000/km9ht3k0/laptop-stand/4/o/8/fklst3-flipkart-smartbuy-original-imagf78fgxbs7kjx.jpeg",
+        "price": 25
+    },
+    {
+        "id": 4,
+        "name": "Gaming Mouse",
+        "image": "https://rukminim2.flixcart.com/image/850/1000/xif0q/mouse/k/d/a/f-1-gaming-mouse-wired-for-computer-braided-entwino-original-imahymq2waxg6ksn.jpeg",
+        "price": 60
+    },
+    {
+        "id": 5,
+        "name": "Mechanical Keyboard",
+        "image": "https://rukminim2.flixcart.com/image/850/1000/ku79vgw0/keyboard/gaming-keyboard/a/m/o/pk-72-led-backlit-with-mechanical-switch-feeling-flipkart-original-imag7dvgwgmssubu.jpeg",
+        "price": 120
+    },
+    {
+        "id": 6,
+        "name": "Portable Charger",
+        "image": "https://rukminim2.flixcart.com/image/850/1000/k0e66q80/battery-charger/portable-charger/y/g/t/flipkart-smartbuy-xcsda24-original-imafk4zvrwygzt7v.jpeg",
+        "price": 35
+    },
+    {
+        "id": 7,
+        "name": "4K Monitor",
+        "image": "https://rukminim2.flixcart.com/image/850/1000/xif0q/monitor/w/9/q/-original-imagtthfsvczbzef.jpeg",
+        "price": 350
+    },
+    {
+        "id": 8,
+        "name": "Noise-Cancelling Headphones",
+        "image": "https://rukminim2.flixcart.com/image/850/1000/kz4gh3k0/headphone/f/v/b/-original-imagb7bmqzt7hn75.jpeg",
+        "price": 150
+    },
+    {
+        "id": 9,
+        "name": "Gaming Chair",
+        "image": "https://rukminim2.flixcart.com/image/850/1000/l1mh7rk0/gaming-chair/i/s/x/gaming-chair-ergonomic-seat-with-headrest-leather-gaming-chair-original-imagd55esqgfpzvc.jpeg",
+        "price": 85
+    }
+]
