@@ -17,8 +17,6 @@ import useOrderStore from "@/functions/orderController";
 function OrderCard({ product, quantity, isDark, currency_symbol, currency_rate }) {
   const { addItem, removeItem } = useOrderStore();
 
-  console.log(currency_symbol, currency_rate)
-
   return (
     <Card
       direction={{ base: "column", sm: "row" }}
