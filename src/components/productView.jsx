@@ -13,7 +13,6 @@ function ProductView({ isDark }) {
   useEffect(() => {
     getCountryCurrency()
       .then((arg) => {
-        console.log(arg.rate, arg.symbol);
         updateRate(arg.rate);
         updateSymbol(arg.symbol);
       })

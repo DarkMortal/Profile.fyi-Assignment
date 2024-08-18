@@ -143,20 +143,6 @@ function SearchView({ isDark }) {
           </Container>
         </Container>
       </Container>
-      {/*<input type="text" placeholder="search" id="search" />
-      <button onClick={() => search(document.getElementById("search").value)}>
-        Search
-      </button>
-      <select
-        defaultValue={3}
-        onChange={(evt) => updateProductPerPage(parseInt(evt.target.value))}
-      >
-        {Array.from(Array(10).keys(), (index) => (
-          <option value={index + 1} key={index}>
-            {index + 1}
-          </option>
-        ))}
-      </select>*/}
     </>
   );
 }

@@ -9,11 +9,6 @@ import { Providers } from "@/components/provider";
 import "@/app/globals.css";
 import getCountryCurrency from "@/functions/getCountry";
 
-export const metadata = {
-  title: "Profile.fyi Frontend Assignment",
-  description: "Developed by Saptarshi Dey",
-};
-
 function Cart() {
   const [ rate, updateRate ] = useState(1.0);
   const [ symbol, updateSymbol ] = useState("$");
@@ -33,7 +28,6 @@ function Cart() {
   
   useEffect(() => {
     getCountryCurrency().then(arg => {
-      console.log(arg.rate, arg.symbol)
       updateRate(arg.rate);
       updateSymbol(arg.symbol);
     }).catch(err => console.error(err))
@@ -85,7 +79,7 @@ function Cart() {
         </h1>
         <div className="flex justify-center flex-wrap -m-4 items-center">
           {orders.size === 0
-            ? "You haven't ordered anything yet"
+            ? <div className="text-lg justify-center items-center font-bold flex" style={{height: '65vh'}}>You have not ordered anything yet</div>
             : getOrdersWidget()}
         </div>
 
