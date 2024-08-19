@@ -77,7 +77,7 @@ function Cart() {
         >
           Your Orders
         </h1>
-        <div className="flex justify-center flex-wrap -m-4 items-center">
+        <div className="flex justify-center flex-wrap -m-4 items-center m-auto" style={{width: '95%'}}>
           {orders.size === 0
             ? <div className="text-lg justify-center items-center font-bold flex" style={{height: '65vh'}}>You have not ordered anything yet</div>
             : getOrdersWidget()}

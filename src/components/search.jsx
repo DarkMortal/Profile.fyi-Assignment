@@ -42,7 +42,7 @@ function SearchView({ isDark }) {
           </Text>
 
           <div className="float-right" style={{ zIndex: -20 }}>
-            <div
+            {numOrders > 0 ? <div
               className="bg-red-600 rounded-full text-sm"
               style={{
                 width: "25px",
@@ -53,10 +53,11 @@ function SearchView({ isDark }) {
                 color: "white",
                 marginLeft: "85px",
                 position: "absolute",
+                transition: "ease-out 0.5s"
               }}
             >
               {numOrders}
-            </div>
+            </div>: null}
             <Link href="/cart">
               <Button zIndex={-10} colorScheme="green" fontFamily="Noto Sans">
                 Your Cart

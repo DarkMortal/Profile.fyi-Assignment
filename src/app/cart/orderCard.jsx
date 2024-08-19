@@ -24,6 +24,9 @@ function OrderCard({ product, quantity, isDark, currency_symbol, currency_rate }
       variant="outline"
       style={{margin: '10px'}}
       maxWidth='lg'
+      borderRadius={12}
+      outline='none'
+      backgroundColor={isDark ? "#1a202b" : "#ffffff"}
       borderColor={isDark ? "#1a202b" : "#ffffff"}
     >
       <Image
@@ -31,10 +34,10 @@ function OrderCard({ product, quantity, isDark, currency_symbol, currency_rate }
         maxW={{ base: "100%", sm: "200px" }}
         src={product.image}
         alt="Product Image"
-        borderRadius='lg'
+        borderRadius={20}
       />
 
-      <Stack backgroundColor={isDark ? "#1a202b" : "#ffffff"}>
+      <Stack>
         <CardBody>
           <Heading size="md" className="text-2xl" fontFamily='Noto Sans' color={isDark?'white':'black'}>
             {product.name}
