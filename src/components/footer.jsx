@@ -7,7 +7,7 @@ export class Footer extends Component {
   render() {
     return (
       <footer
-        className="text-center text-lg-start text-white"
+        className="text-center text-lg-start text-white root-footer"
         style={{ backgroundColor: "#1c2331" }}
       >
         <section
@@ -62,7 +62,8 @@ export class Footer extends Component {
                 style={{
                   width: "10%",
                   backgroundColor: "#7c4dff",
-                  height: "3px"
+                  height: "3px",
+                  border: 'none'
                 }}
               />
               <p style={{fontWeight: 'bold'}}>

@@ -43,7 +43,7 @@ body {
   font-family: "Noto Sans";
   overflow-x: hidden;
 }
-footer {
+.root-footer {
   position: absolute;
   height: fit-content;
   margin-left: 0;
